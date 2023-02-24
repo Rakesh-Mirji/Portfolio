@@ -1,7 +1,23 @@
 ---
+import BubblingGame from '../components/BubblingGame.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Home Page";
 ---
-<BaseLayout pageTitle={pageTitle}>
-  <h2>My awesome blog subtitle</h2>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+
+<style>
+  h1{
+    font-size: 600%;
+    text-align: right;
+    font-family: 'Kaushan Script', cursive;
+    font-style: italic;
+  }
+</style>
+
+<BaseLayout>
+  <h1>Welcome</h1>
+  <h1>To My Portfolio</h1>
+  <BubblingGame/>
 </BaseLayout>
