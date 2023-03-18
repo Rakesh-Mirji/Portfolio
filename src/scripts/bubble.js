@@ -66,8 +66,10 @@ function growBubbles(){
             const bubble=bubbles.filter(b=>b.div==elem)[0];
             bubbles=bubbles.filter(b=>b.div!=elem)
             console.log(bubble);
-            if(bubble.color == "red")
+            if(bubble.color == "red"){
+            box.remove.childlevel("Redclicked").
             alert('Red Clicked')
+            alert(box)
     }
 }
 ) 
