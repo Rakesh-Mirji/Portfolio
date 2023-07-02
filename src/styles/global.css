@@ -1,5 +1,5 @@
 html {
-  background: linear-gradient(#ff9776,orange,black);
+  background: white;
   font-family: sans-serif;
 }
 
@@ -41,14 +41,13 @@ body {
     width: 100%;
     top: 5rem;
     left: 48px;
-    background-color: #ff9776;
     display: none;
     margin: 0;
   }
   
   .nav-links a {
     display: block;
-    color:white;
+    color:black;
     text-align: center;
     padding: 10px 0;
     text-decoration: none;
@@ -58,7 +57,7 @@ body {
   }
   
   .nav-links a:hover, a:focus {
-    color: black;
+    color: cyan;
   }
   
   .expanded {
@@ -83,7 +82,7 @@ body {
         display: none;
       }
   
-  } 
+  }
 
 
 

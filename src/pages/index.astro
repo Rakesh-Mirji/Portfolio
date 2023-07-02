@@ -14,10 +14,25 @@ const pageTitle = "Home Page";
     font-family: 'Kaushan Script', cursive;
     font-style: italic;
   }
+  .base{
+    display: flex;
+    justify-content: space-around;
+  }
+  .profile{
+    object-fit:contain;    
+    border-radius:100%;
+    height:600px;
+    width: 500px;
+  }
 </style>
 
 <BaseLayout>
-  <h1>Welcome</h1>
-  <h1>To My Portfolio</h1>
-  <BubblingGame/>
+  <div class="base">
+    <img src="public/images/IMG_20230701_152513.png" class="profile">
+    <div>
+      <h1>Welcome</h1>
+      <h1>To My Portfolio</h1>
+    </div>
+  </div>
+  <hr>
 </BaseLayout>
